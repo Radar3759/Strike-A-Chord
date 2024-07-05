@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- 
+    name: Clarissa Lacefield
+    filename: contact.html
+    Init date: 4/22/2024
+    Current Date: 5/21/2024
+-->
+
+<html lang="en">
+    <head>
+        <title>Strike a Chord: Contact</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    </head>
+    <body>
+
+        <header>
+            <h1><span class="tab-desk">&#x266C;</span>Strike a Chord <span class="tab-desk">&#x266C;</span></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="lessons.html">Lessons</a></li> 
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Main section -->
+        <main>
+            <div id="contact">
+                <h1>Contact us today to schedule your first lesson.</h1>
+                <p class="tel-link mobile"><a href="814-555-9228">(814) 555-9228</a></p>
+                <p class="tab-desk">(814) 555-9228</p>
+                <p>Email: <a href="mailto:lessons@strikeachord.net" class="email-link" >lessons@strikeachord.net</a></p>
+                <p>We are located at: 1122 Music Lane, Chicago, IL 60007</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380511.4514097054!2d-88.06157846913456!3d41.83377343098763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1713811081539!5m2!1sen!2sus" width="600" height="450"  class="map"></iframe>
+            </div>
+
+            <div id="form">
+                <h2>Complete the form below and one of our staff members will contact you.</h2>
+                <form class="form-grid"><!---Start Form-->
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName">
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Musical Interest</legend>
+                        <p>I am interested in:</p>
+                        <label for="guitarles">Guitar Lessons:</label>
+                        <input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">
+                        <label for="pianoles">Piano Lessons:</label>
+                        <input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">
+                        <label for="violinles">Violin Lessons:</label>
+                        <input type="checkbox" name="interest" id="violinles" value="Violin Lessons">
+                        <label for="rent">Rental Equipment:</label>
+                        <input type="checkbox" name="interest" id="rent" value="Rental Equpiment">
+                    </fieldset>
+                    <button type="submit" id="submit" value="Submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+        </footer>
+    </body>
+</html>

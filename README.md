@@ -6,7 +6,7 @@
 ## Specifications
 - HTML
 - CSS
-- Javascripe
+- Javascript
 
 ## To-Do List
 - post class final chapter add ons
